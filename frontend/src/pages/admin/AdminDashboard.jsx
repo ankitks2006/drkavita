@@ -774,7 +774,7 @@ const AdminDashboard = () => {
                         <h4 className="font-bold text-gray-900 text-sm sm:text-base">{t.name}</h4>
                         <div className="flex text-yellow-400 gap-0.5 mt-0.5">
                           {[...Array(t.rating)].map((_, i) => <Star key={i} size={10} className="sm:w-[12px] sm:h-[12px]" fill="currentColor" />)}
-                          {[...Array(5 - t.rating)].map((_, i) => <Star key={i} size={10} className="sm:w-[12px] sm:h-[12px]" className="text-gray-200" />)}
+                          {[...Array(5 - t.rating)].map((_, i) => <Star key={i} size={10} className="sm:w-[12px] sm:h-[12px] text-gray-200" />)}
                         </div>
                       </div>
                     </div>
